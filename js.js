@@ -1,5 +1,4 @@
-// var obj = {"car":"ford","color":"black","brand":"tiago"}
-// var list = ["ford","figo","amaze","honda","vista"]
+
 
 fetch("https://saurav.tech/NewsAPI/top-headlines/category/health/in.json")
 .then(response => response.json())
@@ -17,8 +16,8 @@ for(element in arr){
   
   
   
-  <div class="card" style="width": 100px; "margin": 30px; " >
-  <img src = ${arr[element].urlToImage}   style = "width:350px; height:300px;  margin:50px /> 
+  <div class="card" style="width": 75%; "margin": 30px; " >
+  <img src = ${arr[element].urlToImage}   style = "width:100%; height:400px;  margin:50px /> 
   <div class="card-body">
 
   
